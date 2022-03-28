@@ -19,7 +19,7 @@ for (let i = 1; i <=100; i++) {
         listHTML.innerHTML += listItem_Buzz;
         console.log('Buzz');
     } else {
-        let listItem = `<div class="list-item col">${i}</div>`;
+        let listItem = `<div class="list-item-number col">${i}</div>`;
         listHTML.innerHTML += listItem;
         console.log(i);
     }

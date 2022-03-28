@@ -5,17 +5,14 @@
     --fizzbuzz-color: #DE5471;
     --buzz-color: #F9D277;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 body{
     background-color: var(--background-color);
 }
 
-div [class^=list] {
-    height: 50px;
-    width: 50px;
+.col {
+    display: inline-block;
+    height: 100px;
+    width: 100%;
     background-color: var(--buzz-color);
 }
