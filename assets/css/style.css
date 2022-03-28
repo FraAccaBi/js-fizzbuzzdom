@@ -1,0 +1,15 @@
+*:root{
+    --background-color: #183A4A;
+    --number-color: #3D88AE;
+    --fizz-color: #61D2A4;
+    --fizzbuzz-color: #DE5471;
+    --buzz-color: #F9D277;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--background-color);
+}
