@@ -13,3 +13,9 @@
 body{
     background-color: var(--background-color);
 }
+
+div [class^=list] {
+    height: 50px;
+    width: 50px;
+    background-color: var(--buzz-color);
+}
